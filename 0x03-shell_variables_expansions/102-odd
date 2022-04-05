@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -n Â| grep [13579][[:space:]] | tr -s '' | cut -f2
